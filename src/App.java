@@ -42,18 +42,18 @@ public class App {
          * using overloading
          */
 
-        System.out.println("Sum of two numbers 10 and 20: " + computeSum(10, 20));
-        System.out.println("Sum of three numbers 10, 20 , 30: " + computeSum(10, 20, 30));
+        System.out.println("Sum of two numbers 20 and 30: " + computeSum(20, 30));
+        System.out.println("Sum of three numbers 20, 30 , 40: " + computeSum(20, 30, 40));
         System.out.println("================================================");
         /**
          * Call the greaterValue method with integer parameters
          */
-        System.out.println("The greater value between 69 and 96 is " + greaterValue(69,96));
+        System.out.println("The greater value between 59 and 66 is " + greaterValue(59,66));
 
         /**
          * Call the greaterValue method with double parameters
          */
-        System.out.println("The greater value between 3.2 and 5.6 is " + greaterValue(3.2,5.6));
+        System.out.println("The greater value between 1.2 and 6.6 is " + greaterValue(1.2,6.6));
 
     }
 }
